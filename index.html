@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MMA Web Studio - Custom Websites for Shops &amp; Clinics</title>
+<meta name="description" content="MMA Web Studio builds mobile-first websites, QR menus, WhatsApp assistants and appointment apps for shops and clinics. One-time price, free hosting, no monthly fee.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b0e14;
+    --card: #141926;
+    --line: #232c42;
+    --text: #eef1f7;
+    --muted: #9aa4b8;
+    --accent: #f0b429;
+    --accent2: #22c55e;
+  }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.6; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  header { padding: 72px 0 40px; text-align: center; }
+  .logo { font-size: 14px; letter-spacing: 4px; color: var(--accent); font-weight: 700; text-transform: uppercase; }
+  h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.15; margin: 14px 0 10px; }
+  .sub { color: var(--muted); font-size: clamp(15px, 2.5vw, 19px); max-width: 620px; margin: 0 auto; }
+  .badges { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .badge { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px; padding: 8px 16px; font-size: 13px; }
+  .badge b { color: var(--accent2); }
+
+  .cta { margin-top: 30px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn { display: inline-block; text-decoration: none; font-weight: 700; border-radius: 12px; padding: 14px 26px; font-size: 15px; }
+  .btn-wa { background: var(--accent2); color: #06210f; }
+  .btn-mail { background: var(--card); color: var(--text); border: 1px solid var(--line); }
+
+  section { padding: 48px 0 8px; }
+  h2 { font-size: clamp(22px, 4vw, 30px); margin-bottom: 6px; }
+  .note { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+  .card h3 { font-size: 17px; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: 14px; }
+  .price { color: var(--accent); font-weight: 700; font-size: 14px; margin-top: 10px; display: block; }
+
+  .demo { display: block; text-decoration: none; color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; transition: border-color .15s; }
+  .demo:hover { border-color: var(--accent); }
+  .demo .cat { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  .demo h3 { font-size: 17px; margin: 6px 0 2px; }
+  .demo span { color: var(--muted); font-size: 13px; }
+  .demo .view { color: var(--accent2); font-size: 13px; font-weight: 700; margin-top: 10px; display: inline-block; }
+
+  footer { margin-top: 60px; border-top: 1px solid var(--line); padding: 28px 0 44px; text-align: center; color: var(--muted); font-size: 13px; }
+  footer b { color: var(--text); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">MMA Web Studio</div>
+    <h1>Your shop, online.<br>A website that fits in your customer's pocket.</h1>
+    <p class="sub">We build fast, mobile-first websites for shops, cafes, salons and clinics. You send us your details on WhatsApp, we build your site, you approve it, it goes live.</p>
+    <div class="badges">
+      <div class="badge"><b>One-time price</b> - no monthly fee</div>
+      <div class="badge"><b>Free hosting</b> included</div>
+      <div class="badge">Works on <b>every phone</b></div>
+      <div class="badge">Delivered in <b>days, not weeks</b></div>
+    </div>
+    <div class="cta">
+      <a class="btn btn-wa" href="https://wa.me/923418681325?text=Hi%2C%20I%20saw%20your%20web%20studio%20page.%20I%20want%20a%20website%20for%20my%20business.">Chat on WhatsApp</a>
+      <a class="btn btn-mail" href="mailto:mmohsinazharofficial@gmail.com">Email us</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>What we build</h2>
+    <p class="note">Every project is custom-coded for your business - no templates, no page builders.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Business Website</h3>
+        <p>Your services, prices, photos, location and a WhatsApp order button - a complete site for your shop, salon, gym or brand.</p>
+        <span class="price">One-time price, free hosting</span>
+      </div>
+      <div class="card">
+        <h3>QR Menu + Loyalty Card</h3>
+        <p>For cafes and restaurants: customers scan a QR code, see your menu, and collect stamps on a digital loyalty card.</p>
+        <span class="price">Add-on for cafes</span>
+      </div>
+      <div class="card">
+        <h3>Clinic WhatsApp Assistant</h3>
+        <p>An AI assistant on your clinic's WhatsApp that answers patient questions and books appointments, day and night.</p>
+        <span class="price">One-time setup</span>
+      </div>
+      <div class="card">
+        <h3>Appointment + Record App</h3>
+        <p>For doctors: patients book appointments online and you keep their visit records in one simple app.</p>
+        <span class="price">One-time price</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sample designs</h2>
+    <p class="note">Free sample websites we designed for real shops we reached out to - tap any card to open the live demo. Your site will be designed around your business the same way.</p>
+    <div class="grid">
+      <a class="demo" href="https://files.instinct.com/wlxymqcl6ipp-chiarabella-cupcakes-website-demo">
+        <div class="cat">Bakery</div>
+        <h3>Chiarabella Cupcakes</h3>
+        <span>Lima, Peru</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/jhoumaq2dyv9-bibis-cakes-website-demo">
+        <div class="cat">Cakes</div>
+        <h3>Bibi's Cakes</h3>
+        <span>Custom cake studio</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/2cac7pka64p4-the-bobo-cuts-barber-shop-website">
+        <div class="cat">Barber Shop</div>
+        <h3>The Bobo Cut's</h3>
+        <span>Slovakia</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/uq0r8leflayk-solo-coiffure-website-demo">
+        <div class="cat">Hair Salon</div>
+        <h3>Solo Coiffure</h3>
+        <span>Canada</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/wrnr4gxoymrf-balloons-that-pop-website-demo">
+        <div class="cat">Events</div>
+        <h3>Balloons that POP</h3>
+        <span>Bahamas</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/x993tssaxvcq-hk-deco-website-demo">
+        <div class="cat">Home Decor</div>
+        <h3>Hk_deco_</h3>
+        <span>Algeria</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/lva7uwfbi1wt-emif-coeur-mode-website-demo">
+        <div class="cat">Fashion</div>
+        <h3>Emif Coeur Mode</h3>
+        <span>DR Congo</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+      <a class="demo" href="https://files.instinct.com/a7lq4xih3kyu-vente-de-babouche-en-ligne-website">
+        <div class="cat">Online Store</div>
+        <h3>Vente de Babouche</h3>
+        <span>Traditional footwear</span><br>
+        <span class="view">Open live demo &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <p class="note">Simple process, everything on WhatsApp.</p>
+    <div class="grid">
+      <div class="card"><h3>1. Message us</h3><p>Tell us about your business on WhatsApp - name, services, photos, prices.</p></div>
+      <div class="card"><h3>2. We build a free sample</h3><p>We design a sample homepage for your shop first, so you can see the quality before paying anything.</p></div>
+      <div class="card"><h3>3. You approve, we go live</h3><p>Once you like it, we finish the full site and put it online with free hosting. You share the link everywhere.</p></div>
+    </div>
+  </section>
+
+  <section style="text-align:center; padding-bottom:20px;">
+    <h2>Get your website</h2>
+    <p class="note">Message us today - the first sample design is free.</p>
+    <div class="cta">
+      <a class="btn btn-wa" href="https://wa.me/923418681325?text=Hi%2C%20I%20saw%20your%20web%20studio%20page.%20I%20want%20a%20website%20for%20my%20business.">Chat on WhatsApp</a>
+      <a class="btn btn-mail" href="mailto:mmohsinazharofficial@gmail.com">mmohsinazharofficial@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <b>MMA Web Studio</b> - Kabirwala, Khanewal, Pakistan<br>
+    Custom-coded websites. No templates. One-time price, free hosting, no monthly fee.
+  </footer>
+
+</div>
+</body>
+</html>
